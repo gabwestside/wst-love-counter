@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💖 Happy Love Days
 
-## Getting Started
+🌸 Um site especial que celebra cada dia de amor entre Gabriel e Renata, com contador ao vivo, fotos e animações fofas de corações flutuantes.
 
-First, run the development server:
+> 🗓️ Juntos desde **01/03/2025**  
+> 🥰 Este projeto foi feito com muito carinho, como presente digital para o nosso relacionamento.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Funcionalidades
+
+- ⏳ **Contador ao vivo** de dias, horas, minutos e segundos juntos
+- 🗓️ **Contagem regressiva** para o próximo mêsversário
+- 🖼️ **Galeria de fotos** do casal
+- 💞 **Corações flutuantes animados** com variação de emoji, posição, rotação e velocidade
+- 📱 **Responsivo**: funciona lindamente em mobile e desktop
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- [Next.js 14](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vercel](https://vercel.com/) (para deploy)
+
+---
+
+## 🔗 Acesse o site
+
+👉 [https://happylovedays.vercel.app](https://happylovedays.vercel.app)
+
+---
+
+## 📁 Estrutura de diretórios
+
+```
+📦app
+┣ 📂components
+┃ ┣ 📄floating-hearts.tsx
+┃ ┣ 📄love-header.tsx
+┃ ┣ 📄photo-grid.tsx
+┃ ┗ 📄countdown-footer.tsx
+┣ 📂utils
+┃ ┣ 📄constants.ts
+┃ ┗ 📄love-counter.ts
+┣ 📄page.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Próximas ideias
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎵 Música de fundo romântica
+- 🖼️ Álbum interativo com legendas
+- 🗓️ Linha do tempo com datas especiais
+- 🌙 Tema noturno (modo lua de mel)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🤍 Agradecimentos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feito com todo amor por Gabriel, para minha linda namorada Renata 💘  
+Você faz todos os dias valerem a pena 💐
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🖼️ Screenshot
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Happy Love Days](./public/preview.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📜 Licença
+
+Este projeto é pessoal e feito com fins românticos. Mas sinta-se à vontade para se inspirar 💞
